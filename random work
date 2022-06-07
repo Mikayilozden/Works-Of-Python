@@ -1,0 +1,92 @@
+my_data = 'I am crying'
+print(type(my_data))
+<class 'str'>
+
+pi = 3.14
+con_pi = str(pi)
+print(con_pi)
+print(type(con_pi))
+3.14
+<class 'str'>
+
+age = 27
+mikayil = str(age)
+print(mikayil)
+print(type(mikayil))
+27
+<class 'str'>
+
+mkl = int("27")
+ type(mkl)
+int
+kml = ("otuziki")
+type(kml)
+str
+
+float("11")
+11.0
+
+x = 39
+v = "11"
+y = "2.5"
+z = "I am at"
+
+print(x-int(v))
+print(x-float(y))
+print(z, str(x))
+28
+36.5
+I am at 39
+number_int = 123
+number_flt = 1.23
+number_new = number_int + number_flt
+print("datatype of number_int:", type(number_int))
+print("datatype of number_flt:", type(number_flt))
+print()
+print("Value of number_new:", number_new)
+print("datatype of number_new:", type(number_new))
+datatype of number_int: <class 'int'>
+datatype of number_flt: <class 'float'>
+
+Value of number_new: 124.23
+datatype of number_new: <class 'float'>
+number_int = 123
+number_str = "456"
+print("Data type of number_int:", type(number_int))
+print("Data type of number_str before Type Casting:", type(number_str))
+print()
+number_str = int(number_str)
+print("Data type of number_str after Type Casting:", type(number_str))
+number_sum = number_int + number_str
+print("Sum of number_int and number_str:", number_sum)
+print("Data type of the sum:", type(number_sum))
+Data type of number_int: <class 'int'>
+Data type of number_str before Type Casting: <class 'str'>
+Data type of number_str after Type Casting: <class 'int'>
+Sum of number_int and number_str: 579
+Data type of the sum: <class 'int'>
+r = 5
+pi = 3.14
+area = pi * r ** 2
+print(area)
+78.5
+print(11 % 2)
+print((4 * 5))
+1
+20
+a = 3
+b = 4
+c = (a ** 2 + b ** 2) ** 0.5
+print(c)
+5.0
+text1 = "seni çok seviyorum"
+print(text1)
+seni çok seviyorum
+print("ali", end=" ")
+print("veli", "irem")
+ali veli irem
+print("Ayla\nın çantası")
+Ayla
+ın çantası
+print('first', 'second',  'third', sep='\t')
+first	second	third
