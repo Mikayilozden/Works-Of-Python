@@ -1,0 +1,134 @@
+number = 0
+
+while number < 6 :
+  
+  print(number)
+  number += 1
+print("now, number is bigger or equal to 6")
+
+output = 
+0
+1
+2
+3
+4
+5
+now, number is bigger or equal to 6
+
+
+condition = 5
+while condition :
+  print(condition)
+  condition -= 1
+  
+output = 
+5
+4
+3
+2
+1
+ 
+ my_list = ["a", "b", "c", "d", "e"]
+a = 0
+
+while a < len(my_list) :
+  print("square of {} is : {}".format(a, a**2))
+  a+=1
+
+output =  
+square of 0 is : 0
+square of 1 is : 1
+square of 2 is : 4
+square of 3 is : 9
+square of 4 is : 16
+ 
+answer = 27
+print("Let's start play the guesssing game!")
+
+while True :
+  guess = int(input("What a two a digit number am I thinking of? "))
+  if guess < answer :
+    print("Little higher")
+  elif guess > answer :
+    print("Little lower")
+  else :
+    print("Are you MINDREADER!")
+    break
+    
+    
+ output =
+  
+Let's start play the guesssing game!
+What a two a digit number am I thinking of? 65
+Little lower
+What a two a digit number am I thinking of? 47
+Little lower
+What a two a digit number am I thinking of? 58
+Little lower
+What a two a digit number am I thinking of? 27
+Are you MINDREADER!
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
