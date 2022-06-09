@@ -1,0 +1,55 @@
+sentence = input("Give me a sentence")
+word_list = sentence.split()
+
+longest = 0
+i = 0
+while i < len(word_list) :
+  if len(word_list[i]) > longest :
+    longest = len(word_list[i])
+
+  i += 1
+print("The length of the longest word :", longest)
+
+
+output =
+Give me a sentenceThe best school is clarısway
+The length of the longest word : 9
+
+
+for i in [1, 2, 3, 4, 5] :
+  print(i)
+
+output =
+
+1
+2
+3
+4
+5
+
+names = ["Ahmed", "Aisha", "Adam", "Joseph", "Gabriel"]
+
+oupt = input("Please entered name :")
+
+for i in names :
+  print("hello" ,i)
+
+output =
+
+
+Please entered name :Ahmed
+hello Ahmed
+hello Aisha
+hello Adam
+hello Joseph
+hello Gabriel
+
+
+
+
+
+
+
+
+
+
