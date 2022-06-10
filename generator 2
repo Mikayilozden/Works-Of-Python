@@ -1,0 +1,62 @@
+bool("")
+False
+--------------------
+all((1, 2, ""))
+False
+--------------------
+all("")
+True
+--------------------
+listA = ["susan", "tom", False, 0, "0"]
+filter()
+filtered_list = filter(None, listA)
+filtered_list
+<filter at 0x26cbc65a8b0>
+----------------------------------
+print("The filtered elemants are :")
+
+for i in filtered_list :
+    print(i)
+The filtered elemants are :
+susan
+tom
+0
+-----------------------------------
+
+isimler = ["ali", "deli", "veli"]
+sayaç = 0
+liste =[]
+for isim in isimler :
+    liste.append((sayaç, isim))
+    sayaç += 1
+print(liste)
+
+[(0, 'ali'), (1, 'deli'), (2, 'veli')]
+---------------------------------------------
+print(list(enumerate(isimler)))
+[(0, 'ali'), (1, 'deli'), (2, 'veli')]
+----------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
