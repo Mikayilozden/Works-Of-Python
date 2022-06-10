@@ -1,0 +1,46 @@
+(i ** 2 for i in range(6))
+<generator object <genexpr> at 0x0000026CBA6D0C10>
+-------------------------------------------------------
+generator = (i ** 2 for i in range(6))
+list(generator)
+[0, 1, 4, 9, 16, 25]
+----------------------------------
+print(*generator)
+
+--------------------
+generator = (i ** 2 for i in range(6))
+
+generator
+<generator object <genexpr> at 0x0000026CBA6D0AC0>
+
+---------------------------------------
+print(next(generator))
+0
+----------------------------------------
+print(next(generator))
+9
+-----------------------------
+print(next(generator))
+12
+------------------------------
+print(next(generator))
+16
+-------------------------------
+print(next(generator))
+25
+--------------------------
+print(next(generator))
+StopIteration                             Traceback (most recent call last)
+Input In [15], in <cell line: 1>()
+----> 1 print(next(generator))
+
+StopIteration: 
+
+
+
+
+
+
+
+
+
