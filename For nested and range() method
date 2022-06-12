@@ -1,0 +1,168 @@
+test = [(1,2,3), (4,5,6), (7,8,9)]
+for i in test :
+  print(i) 
+output:
+(1, 2, 3)
+(4, 5, 6)
+(7, 8, 9)
+------------------------------
+times = int(input("How many times should I say 'I love you'"))
+
+for i in range(times) :
+  print('I love you')
+  
+output:
+
+How many times should I say 'I love you'4
+I love you
+I love you
+I love you
+I love you
+
+-------------------------------------
+
+rkm = int(input("please enter a number :")) 
+
+for i in range(11 ) :
+  print(f"{rkm} x {i} = {rkm * i}")
+output:
+please enter a number :5
+5 x 0 = 0
+5 x 1 = 5
+5 x 2 = 10
+5 x 3 = 15
+5 x 4 = 20
+5 x 5 = 25
+5 x 6 = 30
+5 x 7 = 35
+5 x 8 = 40
+5 x 9 = 45
+5 x 10 = 50
+
+----------------------------
+
+for i in range(1, 10) :
+  print(str(i)  * i)
+output:
+1
+22
+333
+4444
+55555
+666666
+7777777
+88888888
+999999999
+------------------------------
+
+print(* range(5,25,2))
+output:
+
+5 7 9 11 13 15 17 19 21 23
+
+-----------------------------
+text = ["one", "two", "three", "four", "five"]
+number =[1, 2, 3, 4, 5]
+for x, y in zip(text, number) :
+  print(x, ':', y)
+output:
+one : 1
+two : 2
+three : 3
+four : 4
+five : 5
+----------------------------------
+
+evens = []
+odd = []
+for n in range(10) :
+  if n % 2 == 0 :
+    evens.append(n)
+  else :
+    odd.append(n)
+print("evens:", evens)
+print("odd:", odd)
+output:
+evens: [0, 2, 4, 6, 8]
+odd: [1, 3, 5, 7, 9]
+
+---------------------------------
+numbers = (11, 36, 33, 66, 89, 21, 32, 16, 10)
+
+evens = 0
+odd = 0
+for i in number :
+  if i % 2 == 0 :
+    evens += 1
+  else :
+    odd += 1
+print("Even count:", evens)
+print("Odd count:", odd)
+
+output:
+Even count: 2
+Odd count: 3
+-----------------------
+
+sum_num = 0
+
+for i in range(1, 75) :
+  sum_num += i
+print(sum_num)
+
+output:
+2775
+---------------------------
+
+who = ['I am ', 'You are ']
+mood = ['happy ', 'confident']
+for i in who :
+  for ii in mood :
+    print(i + ii)
+
+output:
+I am happy 
+I am confident
+You are happy 
+You are confident
+
+------------------------
+names = ["susan ", "tom ", "edward "]
+mood = ["happy", "sad"]
+for i in names :
+  for ii in mood :
+    print(i + ii)
+output:
+susan happy
+susan sad
+tom happy
+tom sad
+edward happy
+edward sad
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
