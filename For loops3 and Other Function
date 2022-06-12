@@ -1,0 +1,69 @@
+word = input("Give me a word :")
+counter = 0
+
+for i in word:
+  counter += 1
+
+  if counter < len(word) :
+     i+= "-"
+  print(i, end="")
+  
+  output:
+Give me a word :clarusway
+c-l-a-r-u-s-w-a-y
+----------------------------------------
+user = {
+    "name": "Daniel",
+    "surname": "Smith",
+    "age": 27
+
+}
+
+for i in user :
+   print(i)
+output =
+name
+surname
+age
+-------------------------
+for i in "abc" :
+  print("Hello world")
+output:
+Hello world
+Hello world
+Hello world
+--------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
